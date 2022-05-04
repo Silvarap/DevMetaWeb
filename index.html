@@ -2,7 +2,8 @@
 <html>
     <head>
         <title>Aula-01-HTML</title>
-        <link rel="stylesheet" href="styles.css">   
+        <link rel="stylesheet" href="styles.css"> 
+        <link rel="icon" type="image/x-icon" href="img/R.png">
     </head>
 
     <!-- primeira parte do código html-->
@@ -24,6 +25,40 @@
         </ul>
         <h1>Topico de tamanho 3</h1>
         <p><img src="img/html5.png" width="1000" height="200" alt="img HTML"></p>
+        
+        <h1>Usando Tabelas</h1>
+
+        <table>
+            <tr>
+              <th>Nome</th>
+              <th>Endereço</th>
+              <th>País</th>
+              <th>Telefone</th>
+              <th>E-mail</th>
+            </tr>
+            <tr>
+              <td>Fulano de Tal</td>
+              <td>Macapá</td>
+              <td>Brasil</td>
+              <td>99999-9999</td>
+              <td>fulano@meta.com.br</td>
+            </tr>
+            <tr>
+              <td>Ciclano</td>
+              <td>Santana</td>
+              <td>Brasil</td>
+              <td>99999-8888</td>
+              <td>ciclano@meta.com.br</td>
+            </tr>
+        </table>
+        
+        <h1>Usando Imagens</h1>
+
+        <picture>
+            <source media="(min-width: 650px)" srcset="img/1.jpg">
+            <source media="(min-width: 465px)" srcset="img/2.jpg">
+            <img src="img/3.jpg">
+        </picture>
 
     </body>
   

@@ -12,3 +12,7 @@ p    {
     color: red; 
     text-align:right;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
